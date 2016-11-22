@@ -1,10 +1,19 @@
-h1 {
-  text-decoration: underline;
+header, p {
+  background-color:#6d7993;
+  background-size: auto;
+  width: 900px;
+  height:200px;
+  margin: 0 auto;
 }
-h2
-{
-  text-decoration: underline;
+
+* h1, h2 {
+  font-family: georgia;
 }
-# body {
-  background-color: #d5d5d5
+
+#body{
+  background-color: #d5d5d5;
+  background-size: auto;
+  font-style: georgia;
+  width: 900px;
+  margin: 0 auto;
 }
