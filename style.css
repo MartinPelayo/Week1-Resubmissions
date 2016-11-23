@@ -1,19 +1,40 @@
-header, p {
-  background-color:#6d7993;
+#header {
+  background-color:#9099a2;
   background-size: auto;
-  width: 900px;
-  height:200px;
-  margin: 0 auto;
+  width: 895px;
+  height:240px;
+  position: absolute;
+  margin: o auto;
+  padding: 1px;
+  border: 1px inset black;
 }
 
 * h1, h2 {
-  font-family: georgia;
+  font-family: serif;
+
 }
 
-#body{
+#body {
   background-color: #d5d5d5;
-  background-size: auto;
-  font-style: georgia;
-  width: 900px;
-  margin: 0 auto;
+  font-family:serif ;
+  width: 400px;
+  float: right;
+  height: 793px;
+  border: 1px solid black;
+  border-right: 90px solid #6d7993;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+.positioned {
+  Right:480px;
+  bottom: 590px;
+}
+
+.positioned2 {
+  position:relative;
+  left: 20px;
+  bottom:18px;
 }
